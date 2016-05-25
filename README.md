@@ -39,17 +39,16 @@ process. Show potential employers that we know what we are doing.
 
 ## Modeling our Data 
 	
-	* Post
+	1. Post
 		* title:string
 		* content:string 
-	* Project
+	2. Project
 		* title:string
 		* description:text 
 		* link:string
-	-User
+	3. User
 
 ## Think through the pages that need our app 
-
 	- Home
 	- Posts#index 
 	- Posts#Show
