@@ -28,14 +28,19 @@ process. Show potential employers that we know what we are doing.
 	- User (Devise)
 
 ## User Stories 
-
-	1. As a user, I want to be able to create posts so that I can share what I am learning on my blog.
-	2. As a user. I want to be able to edit & destroy posts, so that I can manage my blog.
-	3. As a user, I want to be able to write posts in markdown format so that it's easy for me to write posts.
-	4. As a user, I want to be able to highlight the various syntax of code blocks that I share on my blog.
-	5. As a user, I want to show the visitors and potential employers examples of my work, or stuff I've built.
-	6. As a user, I want to be able to have visitors contact me through a form on my site.
-	7. As a user, I want visitors to be able to leave comments on my posts.
+	As a blank, I want to be able to blank, so that blank.
+	- As a user, I want to be able to create posts so that 
+		I can share what I am learning on my blog.
+	- As a user. I want to be able to edit & destroy posts, 
+	so that I can manage my blog.
+	- As a user, I want to be able to write posts in markdown format 
+	so that it's easy for me to write posts.
+	- As a user, I want to be able to highlight the various syntax of code blocks 
+	that I share on my blog.
+	- As a user, I want to show the visitors and potential employers examples of my work, 
+	or stuff I've built.
+	- As a user, I want to be able to have visitors contact me through a form on my site.
+	- As a user, I want visitors to be able to leave comments on my posts.
 
 ## Modeling our Data 
 	
