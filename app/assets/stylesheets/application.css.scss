@@ -217,6 +217,12 @@ hr{
 	text-align: center;
 }
 
+.notice, .alert{
+	text-align: center;
+	padding: 1em 0;
+	border-bottom: 1px solid #E9E9E9;
+}
+
 @import '_post_project.css.scss';
 
 @import '_welcome.css.scss';
