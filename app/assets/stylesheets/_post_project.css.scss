@@ -1,83 +1,100 @@
-#post_wrapper{
+#posts_wrapper {
 	padding: 3em 0;
-	.post{
+	.post {
 		text-align: center;
-		.date{
+		.date {
 			font-size: .9em;
 			margin: 0;
 		}
-		h2{
+		h2 {
 			margin: 0;
 			font-size: 2em;
 			text-transform: uppercase;
-			a{
+			a {
 				text-decoration: none;
 				color: $dark;
-				&:hover{
+				&:hover {
 					color: $highlight;
 				}
 			}
 		}
-		hr{
+		hr {
 			margin: 3em auto;
 		}
 	}
 }
 
-// ----------- Post Show
-#post_show_content{
-	header{
+// - - - - - - Posts Show
+
+#post_show_content {
+	header {
 		text-align: center;
-		.date{
+		.date {
 			font-size: .9em;
 			color: $light;
 			margin: 0;
 		}
-		h1{
+		h1 {
 			margin: 0;
 		}
 	}
-	hr{
-		margin: 2em auto;
+	hr {
+		margin: 3em auto;
 	}
 }
 
-#share_box{
+#share_box {
 	text-align: center;
-	p{
+	p {
 		padding: 0 0 1em 0;
 		margin: 0;
 		font-weight: 700;
-		text-transformation: uppercase;
+		text-transform: uppercase;
 		color: $dark;
 		font-size: .8em;
 	}
-	i{
+	i {
 		color: $dark;
 		padding: 1em 1.5em;
-		&:hover{
+		&:hover {
 			color: $highlight;
 			cursor: pointer;
 		}
 	}
 }
 
-// ---- Pagination
+#admin_links {
+	border-top: 1px solid $border;
+	border-bottom: 1px solid $border;
+	text-align: center;
+	padding: 1em 0;
+	margin: 3em 0;
+	a {
+		color: $light;
+		margin: 0 1em;
+		font-weight: 700;
+		font-size: .8em;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+}
+
+// - - - - - - Pagination
+
 .pagination:before,
-.pagination:after{
+.pagination:after {
 	content: " ";
 	display: table;
 }
 
-.pagination:after{
+.pagination:after {
 	clear:box;
 }
 
-.pagination{
+.pagination {
 	text-align: center;
 	margin: 0 0 3em 0;
-
-	a, .previous_page, .current, .next_page{
+	a, .previous_page, .current, .next_page {
 		padding: .75em 1em;
 		margin: 0 .5em;
 		border-radius: .15em;
@@ -88,20 +105,18 @@
 		font-size: .7em;
 		font-style: normal;
 		color: $dark;
-		&:hover{
+		&:hover {
 			background: $highlight;
 			color: $white;
 		}
 	}
-
-	.current{
+	.current {
 		background: $highlight;
 		color: $white;
 	}
-
-	.disable{
+	.disabled {
 		color: #C0C0C0;
-		&:hover{
+		&:hover {
 			color: #C0C0C0;
 			background: $white;
 		}
