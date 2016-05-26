@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby '2.3.1'
 
 gem 'rails', '4.2.6'
 gem 'sqlite3'
@@ -24,3 +25,11 @@ group :development do
   gem 'spring'
 end
 
+group :development do 
+	gem 'sqlite3'
+end
+
+group :production do 
+	gem 'pg' 
+	gem 'rails_12factor'
+end
