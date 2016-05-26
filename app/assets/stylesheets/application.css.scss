@@ -1,10 +1,13 @@
-@import 'normalize';
+@import '_normalize.css.scss';
 @import 'pygments';
+
+
 $dark: #424652;
 $light: #9a9da4;
 $highlight: #8bc6db;
 $border: #E9E9E9;
 $white: #FFFFFF;
+
 
 *{
 	box-sizing: border-box;
@@ -35,6 +38,32 @@ body{
 	padding: 3em 0;
 	font-size: 1rem;
 	text-transform: uppercase;
+}
+
+#post_wrapper{
+	padding: 3em 0;
+	.post{
+		text-align: center;
+		.date{
+			font-size: .9em;
+			margin: 0;
+		}
+		h2{
+			margin: 0;
+			font-size: 2em;
+			text-transform: uppercase;
+			a{
+				text-decoration: none;
+				color: $dark;
+				&:hover{
+					color: $highlight;
+				}
+			}
+		}
+		hr{
+			margin: 3em auto;
+		}
+	}
 }
 
 #main_footer{
@@ -169,6 +198,7 @@ hr{
 	}
 }
 
-@import 'welcome';
-@import 'post_project';
+@import '_post_project.css.scss';
+
+@import '_welcome.css.scss';
 
