@@ -115,6 +115,9 @@ input[type="submit"], .button {
 		color: $highlight;
 	}
 }
+
+
+
 .clearfix:before,
 .clearfix:after{
 	content: " ";
@@ -196,6 +199,18 @@ hr{
 			font-size: 1rem;
 		}
 	}
+}
+
+.project_button{
+	background: $highlight;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 1em 2em;
+}
+
+.button_wrapper{
+	margin: 4em 0 0 0;
+	text-align: center;
 }
 
 @import '_post_project.css.scss';
